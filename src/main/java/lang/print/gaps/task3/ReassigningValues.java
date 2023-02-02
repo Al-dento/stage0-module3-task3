@@ -9,16 +9,20 @@ public class ReassigningValues {
         System.out.println(second);
         System.out.println(third);
 
-        first = 15;
-        second = 6;
-        third = 4;
+//        first = 15;
+//        second = 6;
+//        third = 4;
 
-        int linkToFirst = first;
-        int linkToSecond = second;
-        int linkToThird  = third;
+        int linkToFirst = 15;
+        int linkToSecond = 6;
+        int linkToThird  = 4;
 
         System.out.println(linkToFirst);
         System.out.println(linkToSecond);
         System.out.println(linkToThird);
+
+        System.out.println(first);
+        System.out.println(second);
+        System.out.println(third);
     }
 }
